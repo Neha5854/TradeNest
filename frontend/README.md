@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# **🌐 TradeNest — Full-Stack Trading & Analytics Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TradeNest is a modern, modular trading and market-analysis platform built with a clean UI, secure backend, and an interactive dashboard for visualizing market data.
+The project is divided into Frontend, Backend, and Dashboard modules for better scalability and development flow.
 
-## Available Scripts
+## 🚀 Features
+🖥 Frontend (React + Vite)
 
-In the project directory, you can run:
+Landing page, homepage, and user interface screens
 
-### `npm start`
+Interactive Navbar and navigation structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User watchlist UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Category-based UI components
 
-### `npm test`
+Fully responsive design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔐 Backend (Node.js + Express)
 
-### `npm run build`
+Modular Express routes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+REST APIs for user data, watchlist, and trading simulation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Authentication-ready structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clean and organized controller/service pattern
 
-### `npm run eject`
+📊 Dashboard (React)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Real-time stock charts and analytics
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Portfolio overview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Card-based dashboard layout
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Integration-friendly structure for adding graphs, insights, and market data
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📁 Project Structure
+TradeNest/
+│
+├── frontend/        # Full React frontend with pages & components
+├── backend/         # Express server with API routes & controllers
+└── dashboard/  
