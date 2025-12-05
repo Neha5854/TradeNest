@@ -16,29 +16,3 @@ Category-based UI components
 
 Fully responsive design
 
-## 🔐 Backend (Node.js + Express)
-
-Modular Express routes
-
-REST APIs for user data, watchlist, and trading simulation
-
-Authentication-ready structure
-
-Clean and organized controller/service pattern
-
-📊 Dashboard (React)
-
-Real-time stock charts and analytics
-
-Portfolio overview
-
-Card-based dashboard layout
-
-Integration-friendly structure for adding graphs, insights, and market data
-
-📁 Project Structure
-TradeNest/
-│
-├── frontend/        # Full React frontend with pages & components
-├── backend/         # Express server with API routes & controllers
-└── dashboard/  
