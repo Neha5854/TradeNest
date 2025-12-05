@@ -23,6 +23,7 @@ Modular Express routes
 REST APIs for user data, watchlist, and trading simulation
 
 Authentication-ready structure
+![Uploading Screenshot 2025-12-05 142143.png…]()
 
 Clean and organized controller/service pattern
 
